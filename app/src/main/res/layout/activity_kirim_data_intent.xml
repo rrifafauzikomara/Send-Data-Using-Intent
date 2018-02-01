@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="4" >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="1"
+        android:paddingBottom="20dp"
+        android:text="Biodata Mahasiswa"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namaText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="3"
+        android:text="@string/nama" />
+
+    <TextView
+        android:id="@+id/namaValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="3"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/npmText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="5"
+        android:text="@string/npm" />
+
+    <TextView
+        android:id="@+id/npmValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="5"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="7"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/emailValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="7"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/nohpText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="9"
+        android:text="@string/nohp" />
+
+    <TextView
+        android:id="@+id/nohpValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="9"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/jeniskelaminText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="11"
+        android:text="@string/jeniskelamin" />
+
+    <TextView
+        android:id="@+id/jeniskelaminValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="11"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/hobyText"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="13"
+        android:text="@string/hobby" />
+
+    <TextView
+        android:id="@+id/hobyValue"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="13"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <Space
+        android:layout_width="21dp"
+        android:layout_height="1dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="21dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0" />
+    <Space
+        android:layout_width="101dp"
+        android:layout_height="1dp"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="6" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="8" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="10" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="12" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="14" />
+
+</GridLayout>

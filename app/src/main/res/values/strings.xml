@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kuiz Modifikasi Intent</string>
+    <string name="nama">Nama</string>
+    <string name="npm">NPM</string>
+    <string name="email">Email</string>
+    <string name="nohp">No Hp</string>
+    <string name="jeniskelamin">Jenis Kelamin</string>
+    <string name="lakilaki">Laki - Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="hobby">Hobby</string>
+    <string name="traveling">Traveling</string>
+    <string name="baca">Baca</string>
+    <string name="maingame">Main Game</string>
+    <string name="memasak">Memasak</string>
+</resources>
