@@ -1,4 +1,4 @@
-# Send-Data-Using-Intent
+# Intent on Android
 Simple project for sending data using intent with Class Radio Button and Checkbox then display it into TextView on Second Activity
 
 <pre>
